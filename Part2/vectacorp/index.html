@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> 
+    <title>Vecta Corp. Mobile</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <link href="../vectacorp/css/themes/VectaCorp.min.css" rel="stylesheet">  
+    <link href="../vectacorp/css/themes/jquery.mobile.icons.min.css" rel="stylesheet">
+    <link href="../vectacorp/css/styles.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css"/> 
+  	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script src="js/employeeDirectory.js"></script>
+    <script src="js/employeeDetails.js"></script>
+    <script src="js/directReports.js"></script>
+    <script src="js/managerDetails.js"></script>
+	</head>
+    <body>
+    
+<!------ Directory Welcome Page ------->
+<div data-role="page" id="home">
+    <header data-role="header">
+        <h1>Directory</h1>
+    </header>
+    <section data-role="content">
+     
+    <form class="ui-filterable">
+        <input id="directory-main" data-type="search" placeholder="Search Directory">
+    </form>
+    
+    <div id="directoryWelcome">
+    <h3>Welcome to Directory</h3>
+    <p>This is a sample app that demonstrates how to build applications with jQuery Mobile.</p>
+    </div>
+    <ul id="OverviewList" data-role="listview" data-filter="true" data-filter-reveal="true" data-input="#directory-main">
+    </ul>    
+    </section>
+    
+    <footer data-role="footer" class="ui-bar ui-footer" data-position="fixed">
+    <h4>  Copyright &copy;  2017  |  Vecta Corp.</h4>
+  
+</footer>
+   	
+</div>
+    <!------ End Directory Welcome Page ------->
+    
+   <!-- Employee Directory - Details -->
+    <div data-role="page" id="employeeDirectory">
+     <header data-role="header">
+      <a href="#home" data-rel="back" class="ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-back">Back</a>
+      <h1>Employee Details</h1>
+      <a href="#home" class="ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-search">Search</a>
+    </header>
+    <section role="main" class="ui-content">
+    <ul id="employeeHeader" data-role="listview">
+    </ul>
+    <ul id="employeeDetails" data-role="listview"  data-inset="true">
+    </ul>
+    </section>
+    
+    <footer data-role="footer" class="ui-bar ui-footer" data-position="fixed">
+    <h4>  Copyright &copy;  2017  |  Vecta Corp.</h4>
+  
+</footer>
+    </div> 
+ 
+  <!-- End Employee Directory - Details -->
+   
+ <!-- Direct Reports -->
+    <div data-role="page" id="reportsPage">
+    <header data-role="header">
+      <a href="#" data-rel="back" class="ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-back">Back</a>
+      <h1>Direct Reports</h1>
+      <a href="#home" class="ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-search">Search</a>
+    </header>
+    <section role="main" class="ui-content">
+    <ul id="directReports" data-role="listview" data-inset="true">
+    </ul>   
+    </section>
+    
+    <footer data-role="footer" class="ui-bar ui-footer" data-position="fixed">
+    <h4>  Copyright &copy;  2017  |  Vecta Corp.</h4>
+  
+</footer>
+    </div>
+     <!-- Direct Reports -->
+    
+    <!-- Manager Details -->
+    <div data-role="page" id="managerPage">
+    <header data-role="header">
+      <a href="#" data-rel="back" class="ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-back">Back</a>
+      <h1>Manager Details</h1>
+      <a href="#home" class="ui-btn ui-btn-inline ui-mini ui-corner-all ui-btn-icon-left ui-icon-search">Search</a>
+    </header>
+    <section role="main" class="ui-content">
+    <ul id="managerHeader" data-role="listview">
+    </ul>
+    <ul id="managerDetails" data-role="listview" data-inset="true">
+    </ul>   
+    </section>
+    
+    <footer data-role="footer" class="ui-bar ui-footer" data-position="fixed">
+    <h4>  Copyright &copy;  2017  |  Vecta Corp.</h4>
+  
+</footer>
+    </div>
+     <!-- End Manager Details -->
+</body>
+</html>
+
+

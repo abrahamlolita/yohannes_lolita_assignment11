@@ -1,0 +1,51 @@
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+#home h2, #home h3 {
+margin: 2px 0 1.5px;
+}
+#solutions img {
+	float: left;
+	margin: 20px 20px 0;
+}
+
+#solutions h3 {
+    font-weight: 500;
+}
+ul .ui-content .ui-listview {
+    margin-top: 20px;
+}
+
+#vprospect img, #vconvert img, #vretain img{
+    float: left;
+    width: 22%;
+}
+
+#product-list {
+    margin-top: 20px;
+}
+
+#questions-cmments {
+    margin-top: 35px;
+}
+
+#submitbutton .ui-btn {
+    width: 88%;
+    margin: 10px auto;
+}
+
+header.ui-header .ui-title {
+    font-size: 1.15em;
+    font-weight: 500;
+}
+
+h4.ui-title {
+    font-size: 0.95em;
+    font-weight: 500;
+}
+
+div#vconvert header.ui-header.ui-bar-inherit a.ui-btn-left.ui-btn.ui-icon-back, div#vprospect header.ui-header.ui-bar-inherit a.ui-btn-left.ui-btn.ui-icon-back, div#vretain header.ui-header.ui-bar-inherit a.ui-btn-left.ui-btn.ui-icon-back {
+    margin-top: 5px;
+}
+    

@@ -1,0 +1,63 @@
+/*----Employee Directory ---------*/
+body {
+    font-family: 'Roboto Slab', serif;
+}
+
+#directoryWelcome {
+    margin-top: 30px;
+}
+
+ #OverviewList {
+    margin-top: 25px;
+}
+
+.ui-listview >.ui-li-static.ui-li-has-thumb {
+    background-color: #caf6f6;
+}
+
+#employeeHeader, #managerHeader {
+    margin-bottom: 15px;
+}
+#employeeHeader li, #managerHeader li {
+   margin: 10px 20px 15px;
+    border: none;
+}
+
+#employeeHeader img, #managerHeader img {
+    margin-right: 10px;
+}
+
+#employeeHeader.ui-listview >li h2, #managerHeader.ui-listview >li h2 {
+    font-size: 1.15em;
+}
+
+#employeeHeader.ui-listview >li p,#managerHeader.ui-listview >li p {
+    font-size: 0.85em;
+    font-weight: 500;
+}
+
+ul#employeeDetials.ui-listview >li h2 {
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+header.ui-header .ui-title {
+    font-size: 1.15em;
+    font-weight: 500;
+}
+
+h4.ui-title {
+    font-size: 0.95em;
+    font-weight: 500;
+}
+
+#employeeDirectory header.ui-header.ui-bar-inherit a.ui-btn-left.ui-btn.ui-icon-back, #employeeDirectory header.ui-header.ui-bar-inherit a.ui-btn-right.ui-btn.ui-icon-search {
+    margin-top: 5px;
+}
+
+#managerPage header.ui-header.ui-bar-inherit a.ui-btn-left.ui-btn.ui-icon-back, #managerPage header.ui-header.ui-bar-inherit a.ui-btn-right.ui-btn.ui-icon-search {
+    margin-top: 5px;
+}
+
+
+    
